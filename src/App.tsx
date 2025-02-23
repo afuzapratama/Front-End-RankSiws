@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Trophy, Medal, Crown, Search, User } from 'lucide-react';
 import type { Student } from './types';
-import RewardBanner from './RewardBanner';
+// import RewardBanner from './RewardBanner';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -186,7 +186,7 @@ function App() {
           })}
         </div>
       </div>
-      <RewardBanner />
+ 
     </div>
   );
 }
