@@ -13,7 +13,7 @@ function App() {
     const fetchStudents = async () => {
       try {
         setLoading(true);
-        const response = await fetch('http://localhost:4000/api/students/withTotalScores');
+        const response = await fetch(`${import.meta.env.VITE_API_URL}/students/withTotalScores`);
         if (!response.ok) {
           throw new Error('Failed to fetch students data');
         }
