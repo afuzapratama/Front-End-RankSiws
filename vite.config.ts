@@ -12,7 +12,7 @@ export default defineConfig({
    
   },
   server: {
-    allowedHosts: ['b7c5-182-253-242-208.ngrok-free.app'],
+    allowedHosts: ['rank.siswayapim.com'],
   },
 
 });
